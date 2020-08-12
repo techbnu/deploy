@@ -11,7 +11,7 @@ sudo systemctl enable docker
 docker pull gitlab/gitlab-ce
                         
                         
-## docker启动说明:      
+## Docker启动说明:      
 --hostname gitlab.example.com 设置主机名或域名，换成你自己的，可通过该域名访问gitlab
 --publish 8443:443 将http：443映射到外部端口8443
 --publish 8880:80 将web：80映射到外部端口8880
